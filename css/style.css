@@ -11,29 +11,15 @@
   color: green;
   margin: 20px;
 }
-.container{
- 
-}
 .row{
   background-color: rgb(241, 233, 233);
   height: 400px;
   width: 700px;
   margin: auto;
 }
-.ROW2{
-  
-  
-  
-}
-.col-6{
-  
-  
-  
-}
-.frm{
-
-margin: auto;
-}
 .db{
-  float: left;
+  white-space: nowrap;
+  text-align: center;
+  align-items: center;
 }
+
