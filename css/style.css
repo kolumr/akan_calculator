@@ -1,0 +1,39 @@
+.body{
+  background-color: rgb(41, 30, 30);
+  margin: 0em;
+}
+.col-8{
+  margin: auto;
+  background-color: ivory;
+}
+.col-8 h1{
+  text-align: center;
+  color: green;
+  margin: 20px;
+}
+.container{
+ 
+}
+.row{
+  background-color: rgb(241, 233, 233);
+  height: 400px;
+  width: 700px;
+  margin: auto;
+}
+.ROW2{
+  
+  
+  
+}
+.col-6{
+  
+  
+  
+}
+.frm{
+
+margin: auto;
+}
+.db{
+  float: left;
+}
