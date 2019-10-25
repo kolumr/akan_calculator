@@ -8,10 +8,15 @@ function kana(){
   {
     if (nradio[i].checked)
     {
-      var maleNames = [Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame]
-      var femaleNames = [Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama]
-        if { nradio}
-    alert(nradio[i].value);
+      var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+      var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+        if (nradio[i].value === "Male"){
+          alert(maleNames[day]);
+        } 
+          // alert(nradio[i].value);
+        else {
+          alert(femaleNames[day]);
+        }
     present = 0;
     // only one radio can be logically checked, don't check the rest
     break;
@@ -22,6 +27,4 @@ function kana(){
     alert("Please select Gender")
   }
 }
-function Calculate(){
-  
-}
+
