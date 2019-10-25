@@ -8,36 +8,26 @@
   </head>
   <body>
     <div class="container">
-    <div class="row">
-      <div class="col-8">
-        <h1>AKAN CALCULATOR</h1>
-        <p> <strong> This app calculates your Akan name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-          Enter your date of birth(DOB) and select your gender then click on "Calculate" to get your Akan name.</strong>
-        </p>
-      </div>
-    </div>
-    <div class="row ROW2">
-      <div class="col-6">
-        <form action="/action_page.php">
-          <div class="db">
-            <label for="dob" class="col-sm-2 col-form-label">Enter Year Of Birth:</label>
-            <input type="date" class="form-control" id="dob" placeholder="Date of birth">
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" enabled>
-            <label class="form-check-label" for="exampleRadios3">
-            MALE
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" enabled>
-            <label class="form-check-label" for="exampleRadios3">
-            FEMALE
-            </label>
-          </div>
-        </form>
-      </div>
-    </div>
+      <div class="row">
+        <div class="col-8">
+          <h1>AKAN CALCULATOR</h1>
+          <p> <strong> This app calculates your Akan name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
+            Enter your date of birth(DOB) and select your gender then click on "Calculate" to get your Akan name.</strong>
+          </p>
+        </div>
+        <div class="rw">
+          <p id="output"></p>
+          <form class="frm">
+            <LABEL for="db">Date of birth:</LABEL>
+            <input type="date" id="db" name="date of birth"><br>
+            <label for="gd">Gender:</label>
+            <input type="radio" id="gd" name="Gender" value="Male"> Male 
+            <input type="radio" id="gd" name="Gender" value="Female">Female<br>
+            <input id = "sb_button" type="submit" onclick="kana();" value="Calculate">
+            <input id = "sb_button" type="reset" value="Reset">
+          </form>
+        </div>  
+      </div> 
     </div>
     
 

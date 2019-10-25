@@ -13,13 +13,36 @@
 }
 .row{
   background-color: rgb(241, 233, 233);
-  height: 400px;
+  height: 700px;
   width: 700px;
   margin: auto;
 }
-.db{
-  white-space: nowrap;
-  text-align: center;
-  align-items: center;
+.rw{
+  margin: auto;
+  padding: 10px;
 }
+#gd{
+  display: inline;
+}
+.frm{
+  max-width: 400px;
+  margin: 5px auto;
+  display: block;
+  border-radius: 5px;
 
+}
+label{
+  padding: 1em;
+  font-size: 16px;
+}
+#sb_button{
+  background-color: aqua;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 70px;
+}
+#db{
+  border-radius: 5px;
+  color: blueviolet;
+}
