@@ -22,7 +22,7 @@ function kana(){
     break;
     }
   }
-  if (present == 1)
+  if (present == 1 )
   {
     alert("Please select Gender")
   }
