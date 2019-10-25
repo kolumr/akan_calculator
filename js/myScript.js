@@ -8,7 +8,9 @@ function kana(){
   {
     if (nradio[i].checked)
     {
-    // do whatever you want with the checked radio
+      var maleNames = [Kwasi,Kwadwo,Kwabena,Kwaku,Yaw,Kofi,Kwame]
+      var femaleNames = [Akosua,Adwoa,Abenaa,Akua,Yaa,Afua,Ama]
+        if { nradio}
     alert(nradio[i].value);
     present = 0;
     // only one radio can be logically checked, don't check the rest
@@ -19,4 +21,7 @@ function kana(){
   {
     alert("Please select Gender")
   }
+}
+function Calculate(){
+  
 }
