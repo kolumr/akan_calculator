@@ -15,10 +15,12 @@ function kana(){
       var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
       var femaleNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
         if (nradio[i].value === "Male"){
+          // document.getElementById("output").innerHTML = maleNames[day]
           alert(maleNames[day]);
         } 
           
         else {
+          // document.getElementById("output").innerHTML = femaleNames[day]
           alert(femaleNames[day]);
         }
     present = 0;
