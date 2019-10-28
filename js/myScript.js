@@ -13,12 +13,12 @@ function kana(){
         if (nradio[i].value === "Male"){
           alert(maleNames[day]);
         } 
-          // alert(nradio[i].value);
+          
         else {
           alert(femaleNames[day]);
         }
     present = 0;
-    // only one radio can be logically checked, don't check the rest
+    
     break;
     }
   }
