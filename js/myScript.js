@@ -25,6 +25,10 @@ function kana(){
   if (present == 1 )
   {
     alert("Please select Gender")
+    if (day == null)
+    {
+      alert("Please select your date of birth")
+    }
   }
 }
 
