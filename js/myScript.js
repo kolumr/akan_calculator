@@ -2,6 +2,10 @@ function kana(){
   var bdate = document.getElementById("db").value;
   var rdate = new Date(bdate);
   var day = rdate.getDay();
+  if (bdate == " ")
+  {
+    alert("Please select your date of birth")
+  }
   var nradio = document.getElementsByName("Gender");
   var present = 1;
   for (var i = 0, length = nradio.length; i < length; i++)
@@ -25,10 +29,6 @@ function kana(){
   if (present == 1 )
   {
     alert("Please select Gender")
-    if (day == null)
-    {
-      alert("Please select your date of birth")
-    }
   }
 }
 
