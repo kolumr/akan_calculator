@@ -8,6 +8,8 @@ Enter your date of birth(DOB) and select your gender then click on "Calculate" t
 
 ##### Live link 
 
+### BDD
+
 ### Setting up
 Curently there is only a Web app version for Akan calculator hence no installations required.
 
@@ -24,7 +26,8 @@ Phone : 0720698580
 MIT License
 
 Copyright (c) 2019 kolumr
-
+ <a href = "https://img.shields.io/github/license/Naereen/StrapDown.js.svg" ></a>
+ <a href = "https://github.com/Naereen/StrapDown.js/blob/master/LICENSE" ></a>
 
 
           
