@@ -11,5 +11,10 @@ HTML
 CSS
 Javascript
 
+### LICENSE
+MIT License
+
+Copyright (c) 2019 kolumr
+
 
           
