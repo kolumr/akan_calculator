@@ -9,7 +9,7 @@ Enter your date of birth(DOB) and select your gender then click on "Calculate" t
 ##### Live link 
 
 ### Setting up
-Akan calculator is a webapp hence no installations required
+Curently there is only a Web app version for Akan calculator hence no installations required.
 
 ### TOOLS
 HTML
