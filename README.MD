@@ -16,6 +16,9 @@ HTML
 CSS
 Javascript
 
+### Collaboration 
+If you have any ideas and would like to contribute to this website you can reach me via kolumronnie@gmail.com
+
 ### LICENSE
 MIT License
 
